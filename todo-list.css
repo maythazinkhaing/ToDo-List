@@ -31,14 +31,18 @@ hr {
     
 }
 
-ol{
+.ulList{
     margin: 0;
-    height: 340px;
-    display: block;
+    height: 335px;
+    width: 380px;
+    display: inline-block;
     font-family: 'arial';
-    
+    overflow-y: auto;
+    overflow-x: hidden;
     color:  rgb(51, 183, 245);
 }
+
+
 
 .textBox{
     width: 350px;
@@ -63,15 +67,11 @@ ol li{
     font-size: 18px;
     width: 330px;
     cursor: pointer;
-
-  
-    padding: 7px;
+     padding: 7px;
    
 }
 
- li:nth-of-type(1n+11) {
- display: none;
-}
+ 
 
 ol li:hover{
     color:slategray;
@@ -80,7 +80,7 @@ ol li:hover{
 li span{
     float: right;
     color: red;
-    margin-right: 10px;
+    margin-right: 20px;
     font-size: 18px;
     display: none;
     font-family: 'Dosis';
