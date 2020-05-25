@@ -96,3 +96,36 @@ li span:hover{
     
    
 }
+ 
+/*@@@@@@@@@@@@@@@@ Mobile @@@@@@@@@@@@@@@*/
+
+@media screen and (max-device-width: 480px){
+
+    ol li span{
+        display: inline;
+    }
+ 
+   
+   body{
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top:0;
+    left:0;
+   }
+
+.container{
+     width: 450px;
+    height: 650px;
+}
+
+.ulList{
+    width: 450px;
+    height: 485px;
+}
+
+.textBox{
+    width: 400px;
+   height: 50px;
+}
+}
